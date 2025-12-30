@@ -10,7 +10,7 @@ public void tests()
 {
 	System.out.println("this is test method");
 }
-@Test
+@Test(groups = "regression")
 public void testing()
 {
 
