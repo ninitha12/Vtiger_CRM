@@ -1,5 +1,4 @@
 package genericutilities;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -8,8 +7,7 @@ import java.sql.Statement;
 
 import com.mysql.jdbc.Driver;
 
-public class DataBaseUtility {
-
+public class DatabaseUtility {
 	Connection conn=null;
 	ResultSet result=null;
 	public void connectToDB() throws SQLException {
@@ -66,4 +64,3 @@ public class DataBaseUtility {
 	}
 
 }
-
